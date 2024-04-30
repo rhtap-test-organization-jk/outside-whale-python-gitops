@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: outside-whale-python-gitops-repository
+spec:
+  url: https://github.com/rhtap-test-organization-jk/outside-whale-python-gitops
